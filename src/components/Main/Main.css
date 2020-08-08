@@ -1,0 +1,48 @@
+.Main {
+  height: 100vh;
+  width: 100vw;
+
+  padding-top: 2vh;
+
+  align-items: center;
+  font-size: .5cm;
+  font-weight: lighter;
+
+  background-color: rgb(235, 235, 240)
+}
+
+.Main h3 {
+  margin-top: 2vh;
+  margin-bottom: 0vh;
+  font-weight: 400;
+}
+
+#active {
+  line-height: 0.1cm;
+}
+
+.Map {
+  position: relative;
+  width: inherit;
+  overflow: hidden;
+  height: 50vh;
+  border-radius: 0.2cm;
+}
+
+#mappy {
+  width: 90%;
+  margin-left: 5%;
+  height: 110vh;
+  position: absolute;
+  top: -56vh;
+  left: 0;
+  border-width: 0; 
+}
+
+#inp {
+  width: 70%;
+  font-size: .5cm;
+  height: .8cm;
+  border-radius: .2cm;
+  border-width: 0;
+}
